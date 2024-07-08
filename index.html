@@ -6,17 +6,18 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css"/>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 </head>
 <body>
     <header class="header">
         <a href="#" class="logo">Portfolio</a>
 
         <nav class="navbar">
-            <a href="#" >Home</a>
-            <a href="#" >About</a>
-            <a href="#" >Skill</a>
-            <a href="#" >Portfolio</a>
-            <a href="#" >Contact</a>
+            <a href="#" style="--i:1" class="active">Home</a>
+            <a href="#" style="--i:2">About</a>
+            <a href="#" style="--i:3" >Skill</a>
+            <a href="#" style="--i:4">Portfolio</a>
+            <a href="#" style="--i:5">Contact</a>
         </nav>
 
     </header>
@@ -24,19 +25,20 @@
         <div class="home-content">
             <h3>Hello, It's Me</h3>
             <h1>Parteek</h1>
-            <h3>And I'm a</h3>
+            <h3>And I'm a <span class="text"></span></h3>
             <p>A 21-year-old Computer Science and Engineering student at DCRUST University.
-                <br>Web Development: Experienced in HTML, CSS, JAVASCRIPT, BOOTSTRAP and NODE.JS .
+                <br>Continuously exploring new tools and frameworks to enhance my development skills.
             </p>
             <div class="home-sci">
-                <a href="#"><i class='bx bxl-linkedin' ></i></a>
-                <a href="#"><i class='bx bxl-github' ></i></a>
-                 <a href="#"><i class='bx bxl-youtube'></i></a>
-                 <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#" style="--i:6"><i class='bx bxl-linkedin' ></i></a>
+                <a href="#" style="--i:7"><i class='bx bxl-github' ></i></a>
+                <a href="#" style="--i:8"><i class='bx bxl-youtube'></i></a>
+                <a href="#" style="--i:9"><i class='bx bxl-instagram'></i></a>
                  
             </div>
             <a href="#" class="btn-box">More About Me</a>
         </div>
     </section>
+    <script src="script.js"></script>
 </body>
 </html>
