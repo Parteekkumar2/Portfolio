@@ -196,48 +196,6 @@ body {
     color: #0ef;
       
 }
-    
-section{
-    display:flex;
-    flex-wrap: wrap;
-
-}
-.container1{
-    width:100%;
-    height:700px;
-    padding: 10px 15px;
-    margin-left:1px;
-}
-
-.heading1{
-    text-align: center;
-    text-decoration: underline;
-    text-underline-offset: 10px;
-    text-decoration-thickness: 5px;
-}
-
-.bar{
-    font-size:40px;
-    
-}
-
-.technical-bars .bar{
-    margin-top: 40px 0;
-}
-
-.technical-bars .bar:first-child{
-    margin-top:  0;
-}
-
-.technical-bars .bar:last-child{
-    margin-bottom: 0;
-}
-
-.technical-bars .bar .info{
-    margin-bottom: 5px;
-}
-
-
 
 @keyframes slideRight {
     0% {
