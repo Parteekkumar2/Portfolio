@@ -7,6 +7,7 @@
 
 body {
     color: #ededed;
+    background-color: #081b29;
 
 }
 
@@ -16,7 +17,7 @@ body {
     left: 0;
     width: 100%;
     padding: 20px 10%;
-    background: transparent;
+    background: #051129;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -149,6 +150,94 @@ body {
         0 0 25px cyan, 0 0 50px cyan,
         0 0 100px cyan, 0 0 200px cyan
 }
+
+.about{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap:1.5rem;
+}
+
+.about-img img{
+    padding-bottom: 20%;
+    max-width: 630px;
+    height:auto;
+    width:100%;
+    border-radius: 8px;
+}
+
+.about-text h2 span{
+    color: #0ef;
+}
+
+.about-text h4{
+    font-size:29px;
+    font-weight: 600;
+    color:#fff;
+    line-height:1.7 ;
+    margin: 15px 0 30px;
+}
+
+.about-text p{
+    color:aliceblue;font-size: 1.4;
+    margin-bottom: 4rem;
+}
+
+.sub-title {
+    text-align: center;
+    font-size: 60px;
+    padding-bottom: 20px;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+ 
+.sub-title span{
+
+    color: #0ef;
+      
+}
+    
+section{
+    display:flex;
+    flex-wrap: wrap;
+
+}
+.container1{
+    width:100%;
+    height:700px;
+    padding: 10px 15px;
+    margin-left:1px;
+}
+
+.heading1{
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 5px;
+}
+
+.bar{
+    font-size:40px;
+    
+}
+
+.technical-bars .bar{
+    margin-top: 40px 0;
+}
+
+.technical-bars .bar:first-child{
+    margin-top:  0;
+}
+
+.technical-bars .bar:last-child{
+    margin-bottom: 0;
+}
+
+.technical-bars .bar .info{
+    margin-bottom: 5px;
+}
+
+
 
 @keyframes slideRight {
     0% {
